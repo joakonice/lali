@@ -264,6 +264,7 @@ button.btn:active {
 .about {
     padding: 100px 0;
     background-color: #f9f9f9;
+    position: relative;
 }
 
 .about-content {
@@ -272,6 +273,8 @@ button.btn:active {
     justify-content: space-between;
     gap: 40px;
     margin-top: 40px;
+    position: relative;
+    z-index: 1;
 }
 
 .about-image {
@@ -282,6 +285,7 @@ button.btn:active {
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     flex-shrink: 0;
+    position: relative;
 }
 
 .about-image img {
@@ -289,10 +293,13 @@ button.btn:active {
     height: 100%;
     object-fit: cover;
     object-position: center;
+    display: block;
 }
 
 .about-text {
     width: 55%;
+    position: relative;
+    z-index: 1;
 }
 
 .about-text h2 {
