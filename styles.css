@@ -279,7 +279,7 @@ button.btn:active {
 
 .about-image {
     width: 40%;
-    height: 500px;
+    height: 400px;
     background-color: #ddd;
     overflow: hidden;
     border-radius: 8px;
@@ -387,14 +387,15 @@ footer {
     
     .about-content, .contact-content {
         flex-direction: column;
+        gap: 30px;
     }
     
-    .about-image, .about-text, .contact-info, .contact-form {
+    .about-image, .about-text {
         width: 100%;
     }
     
     .about-image {
-        height: 400px;
+        height: 300px;
     }
     
     .contact-info {
