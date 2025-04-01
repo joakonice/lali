@@ -278,8 +278,8 @@ button.btn:active {
 }
 
 .about-image {
-    width: 40%;
-    height: 400px;
+    width: 35%;
+    height: 300px;
     background-color: #ddd;
     overflow: hidden;
     border-radius: 8px;
@@ -297,7 +297,7 @@ button.btn:active {
 }
 
 .about-text {
-    width: 55%;
+    width: 60%;
     position: relative;
     z-index: 1;
 }
@@ -395,7 +395,7 @@ footer {
     }
     
     .about-image {
-        height: 300px;
+        height: 250px;
     }
     
     .contact-info {
