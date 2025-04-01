@@ -270,6 +270,7 @@ button.btn:active {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 40px;
 }
 
 .about-image {
@@ -279,6 +280,7 @@ button.btn:active {
     overflow: hidden;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    flex-shrink: 0;
 }
 
 .about-image img {
